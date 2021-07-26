@@ -18,8 +18,6 @@ module.exports = {
   plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography'), require('@tailwindcss/aspect-ratio')],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
-    enabled: process.env.APP_ENV !== 'local',
-    layers: ['utilities'],
     content: [
       'src/components/**/*.vue',
       'src/helpers/**/*.ts',

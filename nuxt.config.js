@@ -49,6 +49,10 @@ export default {
   ** Nuxt.js modules
   */
   modules: [],
+  tailwindcss: {
+    configPath: '~~/tailwind.config.js',
+    viewer: false,
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
